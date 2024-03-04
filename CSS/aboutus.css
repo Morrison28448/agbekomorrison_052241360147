@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(../IMAGES/background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.mission,
+.vision,
+.core_values {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.mission p,
+.vision p,
+.core_values {
+  font-size: 19px;
+  padding: 8px;
+  margin: 11px;
+}
+.para,
+.para1,
+.para2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mission:hover {
+  border-color: red;
+  transform: translateY(-15px);
+}
+.vision:hover {
+  border-color: red;
+  transform: translateY(15px);
+}
+
+.core_values:hover {
+  border-color: red;
+  transform: translateY(15px);
+}
+
+.faq a {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.faq p:hover {
+  text-decoration: underline;
+  color: black;
+}
+.icons a {
+  text-decoration: none;
+  color: black;
+}
+.icons .ico {
+  font-size: 35px;
+  cursor: pointer;
+  margin: 2px;
+}
+.facebook,
+.twitter,
+.call,
+.youtube,
+.ln,
+.instagram,
+.tiktok {
+  transition: 0.5s;
+  margin: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.facebook:hover {
+  background-color: #0c1fc5;
+  border-radius: 10px;
+}
+.twitter:hover {
+  background-color: #1da1f2;
+  border-radius: 10px;
+}
+.call:hover {
+  background-color: #4dff03;
+  border-radius: 10px;
+}
+.youtube:hover {
+  background-color: #f10909;
+  border-radius: 10px;
+}
+.ln:hover {
+  background-color: #0077b5;
+  border-radius: 10px;
+}
+.tiktok:hover {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+}
+.instagram:hover {
+  background: linear-gradient(31deg, #fff, #cc0808, #db15c1);
+  border-radius: 10px;
+}

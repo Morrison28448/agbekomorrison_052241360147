@@ -1,0 +1,103 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set body font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styling */
+#navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.nav-menu {
+    list-style-type: none;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content section styling */
+#students {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#students h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#students p {
+    margin-bottom: 20px;
+}
+
+.quick-links, .events, .additional-info, .image-gallery {
+    margin-bottom: 30px;
+}
+
+.quick-links h3, .events h3, .additional-info h3, .image-gallery h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.quick-links ul, .events ul, .additional-info ul {
+    list-style-type: none;
+}
+
+.quick-links ul li, .events ul li, .additional-info ul li {
+    margin-bottom: 5px;
+}
+
+.quick-links ul li a, .events ul li a, .additional-info ul li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.image-gallery {
+    text-align: center;
+}
+
+.image-container img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin-top: 10px;
+}

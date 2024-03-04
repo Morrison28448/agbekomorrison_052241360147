@@ -1,0 +1,120 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set body font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styling */
+#navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.nav-menu {
+    list-style-type: none;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content section styling */
+#applicants {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#applicants h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#applicants p {
+    margin-bottom: 20px;
+}
+
+.admission-process, .programs-for-applicants, .additional-info {
+    margin-bottom: 30px;
+}
+
+.admission-process h3, .programs-for-applicants h3, .additional-info h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.admission-process p {
+    margin-bottom: 20px;
+}
+
+.programs-for-applicants ul {
+    list-style-type: none;
+}
+
+.programs-for-applicants ul li {
+    margin-bottom: 20px;
+}
+
+.programs-for-applicants ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+}
+
+.programs-for-applicants ul li p {
+    color: #666;
+    font-size: 16px;
+}
+
+.additional-info ul {
+    list-style-type: none;
+}
+
+.additional-info ul li {
+    margin-bottom: 20px;
+}
+
+.additional-info ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin-top: 10px;
+}
